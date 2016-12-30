@@ -1,0 +1,412 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firefox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: #FFF;
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.8125rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 0.0625rem solid rgb(227, 25, 29);
+  border-radius: 0.125rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*
+ * Heading Styles
+*/
+
+h1, h2 {
+  color: #666a6c;
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+/*
+ * Horizontal Rule Styles
+*/
+
+hr {
+  border: 0;
+  height: 0.0625rem;
+  background: #DCE0E0;
+}
+
+/*
+ * Vertical Line Styles
+*/
+
+.vertical-line {
+  height: 9.25rem;
+  width: 0.0625rem;
+  background: #DCE0E0;
+  display: none;
+  margin-right: 2.5rem;
+}
+
+/*
+ * Container Styles
+*/
+
+.container-white {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 0;
+  background: #FFF;
+}
+
+.container-gray {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 0;
+  background: #F5F5F5;
+}
+
+.container-profile {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 0;
+  transition: all 0.5s ease;
+}
+
+.container-content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 0;
+  transition: all 0.5s ease;
+}
+
+/*
+ * Nav Styles
+*/
+
+.top-nav {
+  height: 3.75rem;
+}
+
+.logo {
+  width: 7.5rem;
+  border-right: 0.0625rem solid #DCE0E0;
+}
+
+/*
+ * Hero Styles
+*/
+
+.hero img {
+  width: 100%;
+}
+
+/*
+ * Profile Section Styles
+*/
+
+.profile {
+  text-align: center;
+  padding: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.0625rem solid #DCE0E0;
+}
+
+.profile p {
+  font-size: 0.875rem;
+  color: #909597;
+}
+
+.profile .owner-photo img {
+  border-radius: 50%;
+  width: 5.625rem;
+  height: 5.625rem;
+}
+
+.profile .relationship {
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+  color: #909597;
+}
+
+.profile .name {
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #909597;
+}
+
+.profile .pet-name {
+  font-size: 1.375rem;
+  color: #666A6C;
+  margin: 0.625rem 0 0.3125rem 0;
+}
+
+/*
+* Icons Section Styles
+*/
+
+.icons {
+  display: flex;
+  align-items: baseline;
+  margin: 0.9375rem 0 0 0;
+}
+
+.icon {
+  flex: 1;
+  justify-content: space-between;
+}
+
+/*
+* Booking Section Styles
+*/
+
+.booking {
+  text-align: center;
+  padding: 1.25rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.booking .price {
+  font-size: 1.375rem;
+  color: #666A6C;
+  margin-bottom: 0.25rem;
+}
+
+.booking .time {
+  font-size: 1rem;
+  color: #666A6C;
+}
+
+.booking .button {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: white;
+  background: #E1555E;
+  border: 0.0625rem solid #D4222E;
+  border-radius: 0.1875rem;
+  max-width: 18.75rem;
+  height: 2.813rem;
+  margin-top: 0.625rem;
+}
+
+/*
+* About Section Styles
+*/
+
+.about {
+  text-align: left;
+  padding: 0.9375rem;
+  background-color: #F5F5F5;
+}
+
+.about-dog {
+  color: #565A5C;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 3.75rem;
+  text-align: center;
+}
+
+.about-description {
+  color: #565A5C;
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+}
+
+.about-contact {
+  color: #FF595F;
+  font-weight: bold;
+  line-height: 2.25rem;
+  padding-bottom: 1.875rem;
+  text-align: center;
+}
+
+/*
+* Care Section Styles
+*/
+
+.care {
+  text-align: left;
+  padding: 0 0.9375rem 0.9375rem 0.9375rem;
+  background-color: #F5F5F5;
+}
+
+.care-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.care-heading {
+  line-height: 1.75rem;
+}
+
+.care-items {
+  padding: 0.625rem 0 1.25rem 0;
+  line-height: normal;
+}
+
+/*
+* Games Section Styles
+*/
+
+.games {
+  text-align: left;
+  padding: 0 0.9375rem 0.9375rem 0.9375rem;
+  background-color: #F5F5F5;
+}
+
+.games-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.games-heading {
+  line-height: 1.75rem;
+}
+
+.games-items {
+  padding: 0.625rem 0 1.25rem 0;
+  line-height: normal;
+}
+
+/*
+* Photos Section Styles
+*/
+
+.photos {
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo img {
+  width: 100%;
+  padding: 1.25rem;
+}
+
+
+
+@media only screen and (min-width: 1060px) {
+
+  .container-profile {
+    width: 1040px;
+  }
+
+  .container-content {
+    width: 1040px;
+  }
+
+  .profile {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .profile .pet-name {
+    text-align: left;
+  }
+
+  .profile .owner-details {
+    padding-right: 20px;
+    margin-top: 20px;
+  }
+
+  .profile .pet-details {
+    padding-right: 16px;
+    margin-top: 20px;
+  }
+
+  .booking {
+    margin-left: auto;
+    padding: 20px 0;
+    flex-direction: row;
+  }
+
+  .booking .price {
+    margin-top: 20px;
+  }
+
+  .icons {
+    min-width: 300px;
+  }
+
+  .care-flex {
+    flex-direction: row;
+  }
+
+  .care-heading {
+    min-width: 170px;
+  }
+
+  .games-flex {
+    flex-direction: row;
+  }
+
+  .games-heading {
+    min-width: 170px;
+  }
+
+  .photos {
+    flex-direction: row;
+  }
+
+  .photo img {
+    flex: 1;
+  }
+
+  .vertical-line {
+    display: flex;
+  }
+
+}
